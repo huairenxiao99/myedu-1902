@@ -62,11 +62,39 @@ def float_demo():
     print(afloat)
     print(type(afloat))
 
-if __name__ == '__main__':
+ # if __name__ == '__main__':
     # aa = 1.2
     # print(aa)
     # print(type(aa))
-    float_demo()
+    # float_demo()
     # add3 = add(5, 1)
     # print(add3)
     pass
+
+
+
+# 通过索引访问 元素
+def list_demo():
+    alist = [1,'xiao',2,'da',3]
+    print(alist)
+
+# 跟新列表中的元素
+def alist_update(alist):
+    alist[0] = 5
+    print(alist[0])
+    print(alist)
+
+
+if __name__ == '__main__':
+    alist = [1, 'xiao', 2, 'da', 3]
+    # alist_update(alist)
+    # # alist = [1, 'xiao', 2, 'da', 3]
+    # # print(alist[0])  作用域
+    # # list_demo()
+
+pass
+
+
+
+
+
