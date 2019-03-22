@@ -70,13 +70,14 @@ def float_demo():
     # add3 = add(5, 1)
     # print(add3)
     pass
-
-
+# 全局变量
+blist = ['asd','sdad',2,8,2]
 
 # 通过索引访问 元素
 def list_demo():
     alist = [1,'xiao',2,'da',3]
     print(alist)
+    print(blist)
 
 # 跟新列表中的元素
 def alist_update(alist):
@@ -86,11 +87,17 @@ def alist_update(alist):
 
 
 if __name__ == '__main__':
-    alist = [1, 'xiao', 2, 'da', 3]
+    list_demo()
+    print(blist)
+    # alist = [1, 'xiao', 2, 'da', 3]
     # alist_update(alist)
     # # alist = [1, 'xiao', 2, 'da', 3]
     # # print(alist[0])  作用域
     # # list_demo()
+
+
+
+
 
 pass
 
